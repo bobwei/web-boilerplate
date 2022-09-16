@@ -1,0 +1,41 @@
+@import '../variables';
+
+.btn-primary:hover {
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.btn:active {
+  opacity: 0.5;
+}
+
+.btn-text-only-primary {
+  color: $primary;
+}
+
+.btn-text-only-primary:focus {
+  box-shadow: none;
+}
+
+.btn-text-only-2 {
+  color: #333;
+}
+
+.btn-text-only-2:focus {
+  box-shadow: none;
+}
+
+.btn-outline-2 {
+  border-color: #aaa;
+  color: #666;
+  border-width: 1px;
+}
+
+.btn-outline-2:focus {
+  box-shadow: none;
+}
+
+.btn-2 {
+  background-color: #0095f6;
+  border-color: #0095f6;
+}

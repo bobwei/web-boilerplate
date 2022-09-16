@@ -1,0 +1,83 @@
+$form-check-input-checked-bg-image: none;
+$form-check-radio-checked-bg-image: none;
+$form-check-input-indeterminate-bg-image: none;
+$form-switch-bg-image: none;
+$form-switch-focus-bg-image: none;
+$form-switch-checked-bg-image: none;
+$form-select-indicator: none;
+$form-feedback-icon-valid: none;
+$form-feedback-icon-invalid: none;
+$accordion-button-icon: none;
+$accordion-button-active-icon: none;
+$carousel-control-prev-icon-bg: none;
+$carousel-control-next-icon-bg: none;
+$btn-close-bg: none;
+
+@import './themes/main/index.scss';
+@import './notion.scss';
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+@import './themes/main/components/button.scss';
+
+.article {
+  display: block;
+  margin: 20px 0;
+
+  img {
+    min-height: 120px;
+    max-height: 120px;
+    margin-bottom: 10px;
+  }
+  .img {
+    width: 100%;
+    padding-bottom: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-bottom: 3px;
+  }
+
+  .link {
+    font-size: 12px;
+    color: #aaa;
+  }
+}
+
+@media (min-width: 768px) {
+  .article {
+    margin: 0;
+  }
+  .img {
+    width: 210px;
+    height: 120px;
+  }
+}
+
+.placeholder-10 {
+  height: 10px;
+}
+
+.placeholder-20 {
+  height: 20px;
+}
+
+.pre {
+  white-space: pre;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}

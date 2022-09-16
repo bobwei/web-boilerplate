@@ -1,0 +1,63 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins/_breakpoints';
+
+.featureTitle {
+  font-size: 2.1em;
+  line-height: 50px;
+  text-align: center;
+  white-space: pre-line;
+}
+
+@include media-breakpoint-up(md) {
+  .featureTitle {
+    font-size: 42px;
+    line-height: 64px;
+  }
+}
+
+.share {
+  width: 160px;
+  height: 50px;
+  margin-top: 3px;
+}
+
+.titleEmoji {
+  font-size: 35px;
+  -webkit-text-fill-color: #fff;
+}
+
+.notes {
+  color: #888;
+  text-align: center;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0 10px 10px;
+  line-height: 20px;
+}
+
+.menuItem {
+  font-weight: bold;
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.featureTitle2 {
+  color: #333;
+  white-space: pre-line;
+  font-size: 20px;
+  line-height: 33px;
+  margin-bottom: 30px;
+}
+
+.featureDescription2 {
+  color: #444;
+  white-space: pre-line;
+  line-height: 28px;
+  margin-bottom: 50px;
+}

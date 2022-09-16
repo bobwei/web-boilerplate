@@ -16,18 +16,6 @@ const Comp = () => {
       <Navbar />
       <Container>
         <HeroInfo />
-        <Row className="d-block d-sm-none">
-          <Col xs={{ span: 8, offset: 2 }}>
-            <div className="d-grid gap-2">
-              <Link href="/web" passHref>
-                <Button variant="outline-primary" size="lg">
-                  {t('Start')}
-                </Button>
-              </Link>
-            </div>
-          </Col>
-        </Row>
-        <div className="placeholder-20" />
         <>
           <div className="placeholder-20" />
           <div className="placeholder-20" />
